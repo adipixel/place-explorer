@@ -1,0 +1,67 @@
+* {box-sizing:border-box;}
+body {
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+
+.bgimg {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index:-1;
+    opacity:1;
+}
+
+.greeting {
+    color:black;
+    text-shadow: 1px 1px 3px rgba(255,255,255, 0.5);
+    text-align: center;
+}
+
+.wikipedia-container {
+    float:right;
+    width:290px;
+    padding:10px;
+    margin: 0 10px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.nytimes-container {
+    padding: 10px;
+    margin-right:310px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid #CCC;
+}
+.article:first-child {
+    border-top:none;
+}
+.form-container{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #444444;
+    font-family: sans-serif;
+}
+.form-container input{
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #bcbcbc;
+}
+.form-container button{
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #bcbcbc;
+    font-size: 16px;
+    padding: 0 10px;
+}
